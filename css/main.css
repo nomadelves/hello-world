@@ -79,7 +79,7 @@ a {
 
 .picture-shadow {
   border-radius: 200px;
-  background-image: radial-gradient(#000 5%, rgba(0, 0, 0, 0) 70%);
+  background-image: radial-gradient(#000 0%, rgba(0, 0, 0, 0) 70%);
   position: absolute;
   top: 15%
 }
