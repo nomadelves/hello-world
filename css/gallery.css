@@ -77,12 +77,6 @@ a {
 }
 
 .button {
-  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0);
-  color: #fff;
-  font-size: 0.9rem;
-  line-height: 1;
-  padding: 1.25em 2em;
-  text-shadow: none;
   transition-property: box-shadow, transform;
   user-select: none;
   vertical-align: top;

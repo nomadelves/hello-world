@@ -2,7 +2,7 @@
 
 html {
   background-color: #1a202a;
-  background-image: linear-gradient(to bottom right, #1d232c, #1d232c);
+  background-image: linear-gradient(to right, #1d232c, #1d232c);
   color: #fff;
   font-family: "Quicksand", sans-serif;
   font-size: 15px;
@@ -52,7 +52,7 @@ a {
   background-image: url("../images/peninsulaghedgetrimminghomebackground.png");
   background-position: center;
   background-size: cover;
-  opacity: 0.25;
+  opacity: 0.5;
   position: fixed;
 }
 
@@ -144,7 +144,7 @@ a {
 }
 
 .button:active {
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0);
   transform: scale(0.98) translateY(-2px);
 }
 
