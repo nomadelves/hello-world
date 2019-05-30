@@ -1,8 +1,7 @@
 /* 1. Base */
 
 html {
-  background-color: #1a202a;
-  background-image: linear-gradient(to right, #1d232c, #1d232c);
+  background-color: #1d232c;
   color: #fff;
   font-family: "Quicksand", sans-serif;
   font-size: 15px;
@@ -13,6 +12,7 @@ html {
   min-width: 300px;
   overflow-x hidden;
   text-shadow: 0 5px 5px #1a202a;
+  <!-- background-image: linear-gradient(to right, #1d232c, #1d232c); -->
 }
 
 a {
@@ -52,8 +52,8 @@ a {
   background-image: url("../images/peninsulaghedgetrimminghomebackground.png");
   background-position: center;
   background-size: cover;
-  opacity: 0.5;
   position: fixed;
+  opacity: 1;
 }
 
 .content {
@@ -77,13 +77,13 @@ a {
   width: 100%;
 }
 
-.picture-shadow {
+/*.picture-shadow {
   border-radius: 200px;
   background-image: radial-gradient(#000 0%, rgba(0, 0, 0, 0) 70%);
   position: absolute;
   top: 10%
 }
-
+*/
 .picture-image {
   position: absolute;
 }
@@ -148,7 +148,7 @@ a {
   transform: scale(0.98) translateY(-2px);
 }
 
-.social {
+/*.social {
   display flex;
   margin-top: 1.5rem;
 }
@@ -181,6 +181,7 @@ a {
   opacity: 1;
   transform: scale(1.1);
 }
+*/
 
 
 /* 4. Responsiveness */
