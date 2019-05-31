@@ -49,7 +49,7 @@ a {
 /* 3. Specific */
 
 .wallpaper {
-  background-image: url("../images/peninsulaghedgetrimminghomebackground.png");
+  background-image: url("../images/peninsulaghedgetrimminghomebackground.svg");
   background-position: center;
   background-size: cover;
   position: fixed;
