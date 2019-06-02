@@ -1,7 +1,7 @@
 /* 1. Base */
 
 html {
-  background-color: #161a1d;
+  background-color: #191e1e;
   color: #fff;
   font-family: "Quicksand", sans-serif;
   font-size: 15px;
@@ -11,7 +11,7 @@ html {
   min-height: 100vh;
   min-width: 300px;
   overflow-x hidden;
-  text-shadow: 0 5px 5px #161a1d;
+  text-shadow: 0 5px 5px #191e1e;
 }
 
 a {
