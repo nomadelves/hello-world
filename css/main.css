@@ -66,8 +66,17 @@ a {
 
 .picture {
   padding-top: 100%;
+  margin-bottom: 1.0rem;
   position: relative;
   width: 100%;
+}
+
+.logo {
+  padding-top: 100%;
+  position: relative;
+  width: 100%;
+  margin-top: -3.0rem;
+  margin-bottom: -2.5rem;
 }
 
 .picture-image {
@@ -78,7 +87,7 @@ a {
   color: #9b8b35;
   font-size: 2.5rem;
   line-height: 1.5;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2.0rem;
 }
 
 .job {
@@ -114,8 +123,10 @@ a {
   color: #fff;
   display: inline-block;
   font-size: 0.9rem;
-  line-height: 1;
+  line-height: 0.5;
   padding: 1.25em 2em;
+  margin-top: -1.5rem;
+  margin-bottom: 3.0rem;
   text-shadow: none;
   transition-property: box-shadow, transform;
   user-select: none;
