@@ -75,8 +75,6 @@ a {
   padding-top: 100%;
   position: relative;
   width: 100%;
-  margin-top: -3.0rem;
-  margin-bottom: -2.5rem;
 }
 
 .picture-image {
@@ -154,7 +152,11 @@ a {
     align-items: center;
     padding: 1rem 1rem;
   }
-
+  .logo {
+    width: 75%;
+    margin-top: -6rem;
+    margin-bottom: -3.5rem;
+  }
   .side {
     margin-bottom: 1rem;
     width: 100%;
@@ -167,7 +169,11 @@ a {
     align-items: center;
     padding: 1rem 1rem;
   }
-
+  .logo {
+    width: 100%;
+    margin-top: -2rem;
+    margin-bottom: -1.25rem;
+  }
   .side {
     flex-grow: 0;
     flex-shrink: 0;
@@ -176,7 +182,6 @@ a {
     order: 2;
     width: 20rem;
   }
-
   .about {
     flex-grow: 1;
     flex-shrink: 1;
