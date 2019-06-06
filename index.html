@@ -4,15 +4,22 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content= "width=device-width> initial-scale=1">
-<!-- Test favicon and tiles -->
+
+<!-- Favicons and tiles -->
 <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+<link rel="shortcut icon" href="images/favicon.ico">
 <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
 <link rel="mask-icon" href="images/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="apple-mobile-web-app-title" content="Hedge Trim">
+
+<!-- Chrome on Andriod json code -->
+<link rel="manifest" href="manifest.json">
+
 <!-- msapplication tile code -->
-<link rel="manifest" href="/site.webmanifest">
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" content="#ffffff">
+<meta name="msapplication-config" content="browserconfig.xml">
 
     <title>Peninsula Hedge Trimming</title>
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Quicksand" rel="stylesheet">
@@ -20,9 +27,12 @@
     <link rel="stylesheet" type="text/css" href="css/minireset.min.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="preload" href="css/gallery" as="style">
-    <link rel="prefetch" href="images/00gallery-logo-tile.svg" as="image" type="image/svg">
-    <link rel="prefetch" href="images/11gallery-close-tile.svg" as="image" type="image/svg">
-    <!-- <link rel="preload" href="gallery-thumbnails.jpg" as="image" type="image/jpg"> -->
+
+    <!-- gallery logo and close tile prefetch -->
+    <link rel="prefetch" href="images/00gallery-logo-tile.svg">
+    <link rel="prefetch" href="images/11gallery-close-tile.svg">
+
+    <!-- gallery image preload -->
     <link rel="preload" href="images/01.jpg" as="image" type="image/jpg">
     <link rel="preload" href="images/02.jpg" as="image" type="image/jpg">
     <link rel="preload" href="images/03.jpg" as="image" type="image/jpg">
@@ -33,6 +43,7 @@
     <link rel="preload" href="images/08.jpg" as="image" type="image/jpg">
     <link rel="preload" href="images/09.jpg" as="image" type="image/jpg">
     <link rel="preload" href="images/10.jpg" as="image" type="image/jpg">
+
   </head>
    <body>
     <div class="wallpaper"></div>
@@ -47,15 +58,6 @@
                 height="320">
         </figure>
         <div class="description">
-        <p>
-          To arrange a quote or to make a booking please call Mark on:
-        </p>
-        <p class="name">
-          0425 734 904
-        </p>
-        <div class="contact">
-        <a class="button" href="mailto:peninsulahedgetrimming@gmail.com?Subject=Quote%20or%20booking%20enquiry" target="_top">or email us
-        </a>
         <h1 class="job">
           About us
         </h1>
@@ -64,12 +66,21 @@
             Led by experienced hedge professional Mark Smith, Peninsula Hedge Trimming is<br>a hedge design, creation and maintenance service that operates exclusively on the Mornington Peninsula.
         </p>
         <br>
+        <p>
+          To arrange a quote or to make a booking please call Mark on:
+        </p>
+        <p class="name">
+          0425 734 904
+        </p>
+        <div class="contact">
+        <a class="button" title="peninsulahedgetrimming@gmail.com" href="mailto:peninsulahedgetrimming@gmail.com?Subject=Quote%20or%20booking%20enquiry" target="_top">or email us
+        </a>
+        <br>
         <h1 class="job">
         Gallery
         </h1>
         <hr class="hr">
-        <div>
-         <figure class="picture">
+        <div class="picture">
          <a class="pictureImage" href="gallery.html">
           <img id="pictureImage" class="picture-image"
            src="images/gallery-thumbnails.jpg"
@@ -77,7 +88,6 @@
            width="320"
            height="320">
          </a>
-         </figure>
          </div>
          <br>
          <div class="contact">
